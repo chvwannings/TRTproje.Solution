@@ -1,0 +1,62 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.35013.160
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{5D3F8D64-FA44-4BB3-A009-640BBC10AFE0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrustructure", "Infrustructure", "{787E776A-6AC4-47C9-8A71-C9C0401244B5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presantation", "Presantation", "{1FB8268F-CE8B-4417-A087-804D252FF28E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TrtProje.Application", "Core\TrtProje.Application\TrtProje.Application.csproj", "{F945277C-070C-4387-AC9D-1B98CD82005A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TrtProje.Domain", "Core\TrtProje.Domain\TrtProje.Domain.csproj", "{384168EA-88CB-4DE2-A139-04AA97A123AB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infrastructure", "Infrastructure\Infrastructure\Infrastructure.csproj", "{147F4D1B-D866-4D9F-9DA8-4BEE692F7678}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TrtProje.Persistance", "Infrastructure\TrtProje.Persistance\TrtProje.Persistance.csproj", "{CAA8A603-0765-4B5C-849E-C9AE46D6C07B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TrtProje.Api", "Presantation\TrtProje.Api\TrtProje.Api.csproj", "{BF0E2C06-F7EF-45D2-A876-22F5D97D61FF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F945277C-070C-4387-AC9D-1B98CD82005A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F945277C-070C-4387-AC9D-1B98CD82005A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F945277C-070C-4387-AC9D-1B98CD82005A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F945277C-070C-4387-AC9D-1B98CD82005A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{384168EA-88CB-4DE2-A139-04AA97A123AB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{384168EA-88CB-4DE2-A139-04AA97A123AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{384168EA-88CB-4DE2-A139-04AA97A123AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{384168EA-88CB-4DE2-A139-04AA97A123AB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{147F4D1B-D866-4D9F-9DA8-4BEE692F7678}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{147F4D1B-D866-4D9F-9DA8-4BEE692F7678}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{147F4D1B-D866-4D9F-9DA8-4BEE692F7678}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{147F4D1B-D866-4D9F-9DA8-4BEE692F7678}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CAA8A603-0765-4B5C-849E-C9AE46D6C07B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CAA8A603-0765-4B5C-849E-C9AE46D6C07B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CAA8A603-0765-4B5C-849E-C9AE46D6C07B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CAA8A603-0765-4B5C-849E-C9AE46D6C07B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BF0E2C06-F7EF-45D2-A876-22F5D97D61FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF0E2C06-F7EF-45D2-A876-22F5D97D61FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BF0E2C06-F7EF-45D2-A876-22F5D97D61FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BF0E2C06-F7EF-45D2-A876-22F5D97D61FF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F945277C-070C-4387-AC9D-1B98CD82005A} = {5D3F8D64-FA44-4BB3-A009-640BBC10AFE0}
+		{384168EA-88CB-4DE2-A139-04AA97A123AB} = {5D3F8D64-FA44-4BB3-A009-640BBC10AFE0}
+		{147F4D1B-D866-4D9F-9DA8-4BEE692F7678} = {787E776A-6AC4-47C9-8A71-C9C0401244B5}
+		{CAA8A603-0765-4B5C-849E-C9AE46D6C07B} = {787E776A-6AC4-47C9-8A71-C9C0401244B5}
+		{BF0E2C06-F7EF-45D2-A876-22F5D97D61FF} = {1FB8268F-CE8B-4417-A087-804D252FF28E}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {603AAD9B-5392-4BE8-A5FE-E7E80A09A65E}
+	EndGlobalSection
+EndGlobal
